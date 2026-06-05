@@ -1,0 +1,3 @@
+scoreboard players add $dark_random_world_spawn.player_manager dark_random_world_spawn.player_id 1
+scoreboard players operation @s dark_random_world_spawn.player_id = $dark_random_world_spawn.player_manager dark_random_world_spawn.player_id
+function dark_random_world_spawn:trigger/reset
