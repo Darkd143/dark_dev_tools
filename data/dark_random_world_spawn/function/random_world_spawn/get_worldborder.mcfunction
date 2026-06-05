@@ -1,0 +1,4 @@
+execute store result score $dark_random_world_spawn.worldborder dark_random_world_spawn.randomize run worldborder get
+scoreboard players set $dark_random_world_spawn.conversion dark_random_world_spawn.randomize 2
+scoreboard players operation $dark_random_world_spawn.worldborder dark_random_world_spawn.randomize /= $dark_random_world_spawn.conversion dark_random_world_spawn.randomize
+return run scoreboard players get $dark_random_world_spawn.worldborder dark_random_world_spawn.randomize
