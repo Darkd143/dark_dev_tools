@@ -1,0 +1,2 @@
+function dark_chunk_manager:manage/positioning/corner_x_loop
+function dark_chunk_manager:manage/positioning/corner_z_loop

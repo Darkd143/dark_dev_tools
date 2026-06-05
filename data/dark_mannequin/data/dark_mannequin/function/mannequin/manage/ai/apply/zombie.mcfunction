@@ -1,0 +1,2 @@
+execute at @s run summon minecraft:zombie ~ ~ ~ {Tags:["dark_mannequin.ai_selector","dark_mannequin.new_ai"],PersistenceRequired:1b,Silent:1b,attributes:[{id:scale,base:0.9f}],active_effects:[{id:invisibility,duration:-1,show_particles:0b}],equipment:{head:{id:oak_button}},drop_chances:{head:0f}}
+execute at @s run function dark_mannequin:mannequin/manage/ai/apply/helper/connect

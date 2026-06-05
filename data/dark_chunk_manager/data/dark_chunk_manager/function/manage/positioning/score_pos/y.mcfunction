@@ -1,0 +1,1 @@
+execute store result score @s dark_chunk_manager.y run data get entity @s Pos[1]

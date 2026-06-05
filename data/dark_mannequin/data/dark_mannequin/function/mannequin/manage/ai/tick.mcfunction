@@ -1,0 +1,2 @@
+execute as @e[type=minecraft:mannequin,tag=dark_mannequin.mannequin] run function dark_mannequin:mannequin/manage/ai/mirror/main
+execute as @e[type=!minecraft:mannequin,tag=dark_mannequin.ai_selector] run function dark_mannequin:mannequin/manage/ai/mirror/check_to_kill/main

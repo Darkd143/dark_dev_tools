@@ -1,0 +1,1 @@
+function dark_mannequin:mannequin/manage/ai/tick

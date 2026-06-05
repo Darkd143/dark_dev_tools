@@ -1,0 +1,1 @@
+scoreboard players set @s dark_mannequin.persist_damage 1

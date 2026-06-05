@@ -1,6 +1,5 @@
 {
     "values":[
-        "dark_mannequin:tick",
         "dark_chunk_manager:tick"
     ]
 }

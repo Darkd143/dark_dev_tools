@@ -1,0 +1,1 @@
+function dark_mannequin:mannequin/manage/properties/invulnerable/main {value:0b}

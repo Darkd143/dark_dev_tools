@@ -1,0 +1,2 @@
+summon armor_stand ~ ~ ~ {Tags:["dark_chunk_manager.armor_stand_helper"],NoGravity:true,Invisible:true,Invulnerable:true,Marker:true}
+execute as @n[tag=dark_chunk_manager.armor_stand_helper] run function dark_chunk_manager:manage/armor_stand_helper/align

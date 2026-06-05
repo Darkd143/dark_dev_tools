@@ -1,0 +1,2 @@
+execute at @s run summon minecraft:vindicator ~ ~ ~ {Tags:["dark_mannequin.ai_selector","dark_mannequin.new_ai"],PersistenceRequired:1b,Silent:1b,attributes:[{id:scale,base:0.9f}],active_effects:[{id:invisibility,duration:-1,show_particles:0b}]}
+execute at @s run function dark_mannequin:mannequin/manage/ai/apply/helper/connect

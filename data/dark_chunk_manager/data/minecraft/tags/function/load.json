@@ -1,6 +1,5 @@
 {
     "values":[
-        "dark_mannequin:load",
         "dark_chunk_manager:load"
     ]
 }

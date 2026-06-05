@@ -1,0 +1,1 @@
+tellraw @s [{"text":"[Dark Mannequin] ","color":"gray"},{"text":"Failed to find a valid mannequin within 10 blocks."}]
