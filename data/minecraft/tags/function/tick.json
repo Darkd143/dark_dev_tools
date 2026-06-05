@@ -1,5 +1,7 @@
 {
     "values":[
+        "dark_player_tp_menu:tick",
+        "dark_random_world_spawn:tick",
         "dark_mannequin:tick",
         "dark_chunk_manager:tick"
     ]
