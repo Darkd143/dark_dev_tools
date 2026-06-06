@@ -1,0 +1,1 @@
+function dark_player:attribute/modify/base {name:"minecraft:knockback_resistance",scale:1}
