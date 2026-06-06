@@ -1,0 +1,1 @@
+execute as @a run function dark_player:manage/attribute/reset_all

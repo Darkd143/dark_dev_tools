@@ -1,2 +1,0 @@
-execute if score $dark_player dark_player.id matches -1 as @a[scores={dark_player.id=1..}] run scoreboard players reset @s dark_player.id
-execute unless score $dark_player dark_player.id matches 0 as @a unless score @s dark_player.id matches 0.. run function dark_player:id/assign_id

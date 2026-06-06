@@ -1,1 +1,0 @@
-execute store result score @s dark_player.rotation_vertical run function dark_player:rotation/vertical/get/scaled {scale:1000000000}

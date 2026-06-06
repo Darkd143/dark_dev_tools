@@ -5,6 +5,6 @@
     }
   },
   "rewards": {
-    "function": "dark_player:advancement/new_player"
+    "function": "dark_player:manage/advancement/new_player"
   }
 }

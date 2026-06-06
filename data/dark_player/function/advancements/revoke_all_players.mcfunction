@@ -1,1 +1,0 @@
-execute as @a run function dark_player:advancements/revoke_all

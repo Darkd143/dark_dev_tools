@@ -1,2 +1,2 @@
 # Player ID
-function dark_player:id/tick
+function dark_player:manage/id/tick

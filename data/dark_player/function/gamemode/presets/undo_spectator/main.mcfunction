@@ -1,1 +1,0 @@
-execute as @a[gamemode=spectator] run function dark_player:gamemode/presets/undo_spectator/helper

@@ -1,1 +1,0 @@
-function dark_player:attribute/modify/base {name:"minecraft:safe_fall_distance",scale:1000}
