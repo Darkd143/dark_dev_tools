@@ -1,0 +1,1 @@
+function dark_player:manage/rotation/horizontal/set/main {horizontal_rotation:45}
