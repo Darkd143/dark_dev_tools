@@ -1,5 +1,6 @@
 # Objectives
 scoreboard objectives add dark_player.id dummy
+scoreboard objectives add dark_player.count dummy
 
 scoreboard objectives add dark_player.rotation_horizontal dummy
 scoreboard objectives add dark_player.rotation_vertical dummy
