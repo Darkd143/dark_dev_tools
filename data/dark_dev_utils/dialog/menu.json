@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Dark Dev Utils",
+  "actions": [
+    {
+      "label": "Player Menu",
+      "tooltip": "Functions and triggers for modifying players",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_player.menu"
+      }
+    },
+    {
+      "label": "Mannequin Menu",
+      "tooltip": "Functions and triggers for modifying mannequins",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.menu"
+      }
+    },
+    {
+      "label": "Chunk Manager",
+      "tooltip": "Functions and triggers for managing chunks",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_chunk_manager.menu"
+      }
+    },
+    {
+      "label": "Random World TP",
+      "tooltip": "functionality for randomizing a new world spawn",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_random_world_spawn.randomize"
+      }
+    }
+  ]
+}

@@ -1,1 +1,1 @@
-scoreboard players reset @s dark_player.rotation_vertical
+scoreboard players reset @s dark_player.temp

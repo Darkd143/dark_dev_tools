@@ -1,5 +1,5 @@
 # Parameters:
-# blocks (int): The amount of blocks to be able to jump over (0-20)
+# - blocks (int): The amount of blocks to be able to jump over (0-20)
 
 $scoreboard players set @s dark_player.temp $(blocks)
 

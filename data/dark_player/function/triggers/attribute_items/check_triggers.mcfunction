@@ -1,0 +1,2 @@
+execute as @a[scores={dark_player.attribute.preset_menu=-1..}] unless score @s dark_player.attribute.preset_menu matches 0 run function dark_player:triggers/attribute_items/preset_menu/run
+execute as @a[scores={dark_player.attribute.scale=-3..}] unless score @s dark_player.attribute.scale matches 0 run function dark_player:triggers/attribute_items/scale/run
