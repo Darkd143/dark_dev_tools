@@ -1,2 +1,2 @@
 function dark_player:triggers/menu/enable
-function dark_player:triggers/menu/dialog
+dialog show @s dark_player:menu
