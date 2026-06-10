@@ -1,3 +1,3 @@
 execute as @a[scores={dark_player.player_tp_menu=1..}] run function dark_player:triggers/player_tp_menu/player_menu/dialog/run
-execute as @a[scores={dark_player.tp_to_player=-1..}] run function dark_player:triggers/player_tp_menu/tp_to_player/run
-execute as @a[scores={dark_player.spectate=-1..}] run function dark_player:triggers/player_tp_menu/spectate/run
+execute as @a[scores={dark_player.tp_to_player=-1..}] unless score @s dark_player.tp_to_player matches 0 run function dark_player:triggers/player_tp_menu/tp_to_player/run
+execute as @a[scores={dark_player.spectate=-1..}] unless score @s dark_player.spectate matches 0 run function dark_player:triggers/player_tp_menu/spectate/run

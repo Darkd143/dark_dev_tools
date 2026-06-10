@@ -1,0 +1,43 @@
+dialog show @s { \
+  "type": "minecraft:multi_action", \
+  "title": "Dark Player Menu", \
+  "exit_action": { \
+    "label": "Back", \
+    "tooltip": "back to the main menu", \
+    "action": { \
+      "type": "minecraft:run_command", \
+      "command": "/trigger dark_dev_utils.menu" \
+    } \
+  }, \
+  "columns": 1, \
+  "actions": [ \
+    { \
+      "label": "Gamemode", \
+      "tooltip": "Change a player's gamemode", \
+      "action": { \
+        "type": "minecraft:run_command", \
+        "command": "/trigger dark_player.gamemode_menu set -1" \
+      } \
+    }, \
+    { \
+      "label": "Reset", \
+      "tooltip": "reset yourself", \
+      "action": { \
+        "type": "minecraft:run_command", \
+        "command": "/trigger dark_player.reset" \
+      } \
+    }, \
+    { \
+      "label": "Attribute Menu", \
+      "tooltip": "Modify player attributes", \
+      "action": { \
+        "type": "minecraft:run_command", \
+        "command": "/trigger dark_player.attribute_menu set -1" \
+      } \
+    }, \
+    { \
+      "label": "Exit", \
+      "tooltip": "Exit the dialog menu" \
+    } \
+  ] \
+}

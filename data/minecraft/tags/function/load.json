@@ -1,5 +1,6 @@
 {
     "values":[
+        "dark_dev_utils:load",
         "dark_player:load",
         "dark_random_world_spawn:load",
         "dark_mannequin:load",

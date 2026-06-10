@@ -1,5 +1,6 @@
 {
     "values":[
+        "dark_dev_utils:tick",
         "dark_player:tick",
         "dark_random_world_spawn:tick",
         "dark_mannequin:tick",
