@@ -1,0 +1,2 @@
+function dark_player:triggers/attribute_items/preset_menu/enable
+function dark_player:triggers/attribute_items/scale/enable

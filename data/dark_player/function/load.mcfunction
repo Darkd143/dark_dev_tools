@@ -8,8 +8,10 @@ scoreboard objectives add dark_player.menu trigger
 scoreboard objectives add dark_player.gamemode_menu trigger
 scoreboard objectives add dark_player.reset trigger
 scoreboard objectives add dark_player.attribute_menu trigger
+
 scoreboard objectives add dark_player.player_tp_menu trigger
 scoreboard objectives add dark_player.tp_to_player trigger
+scoreboard objectives add dark_player.spectate trigger
 
 # Attribute Triggers
 scoreboard objectives add dark_player.attribute.preset_menu trigger
