@@ -1,1 +1,0 @@
-scoreboard players reset @s dark_random_world_spawn.randomize

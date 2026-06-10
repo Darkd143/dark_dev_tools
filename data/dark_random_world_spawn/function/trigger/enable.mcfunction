@@ -1,0 +1,2 @@
+function dark_random_world_spawn:trigger/reset
+scoreboard players enable @s dark_random_world_spawn.randomize

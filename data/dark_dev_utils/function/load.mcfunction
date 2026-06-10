@@ -1,0 +1,1 @@
+scoreboard objectives add dark_dev_utils.menu trigger

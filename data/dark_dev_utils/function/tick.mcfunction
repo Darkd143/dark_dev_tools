@@ -1,0 +1,1 @@
+execute as @a[scores={dark_dev_utils.menu=1..}] run function dark_dev_utils:triggers/menu/run

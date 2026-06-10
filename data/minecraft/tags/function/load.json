@@ -1,7 +1,6 @@
 {
     "values":[
         "dark_player:load",
-        "dark_player_tp_menu:load",
         "dark_random_world_spawn:load",
         "dark_mannequin:load",
         "dark_chunk_manager:load"
