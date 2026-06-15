@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Dark Player - Attribute Menu",
+  "exit_action": {
+    "label": "Back",
+    "tooltip": "back to the player menu",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dark_player:menu"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Attribute Presets",
+      "tooltip": "Select an attribute preset to apply to yourself",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_player.attribute.preset_menu"
+      }
+    },
+    {
+      "label": "Jump Strength",
+      "tooltip": "modify your jump strength",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_player.attribute.jump_strength set -1"
+      }
+    },
+    {
+      "label": "Scale",
+      "tooltip": "modify your scale/size",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_player.attribute.scale set -1"
+      }
+    },
+    {
+      "label": "Reset Attributes",
+      "tooltip": "Reset all your attributes",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_player.attribute.reset"
+      }
+    },
+    {
+      "label": "Exit",
+      "tooltip": "Exit the dialog menu"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+tellraw @s [{"text":"[Dark Player] ","color":"gray"},{"text":"To correct your respawn point, place a bed down, right click it, then break the bed. Then, kill yourself.","color":"white"}]
+give @s minecraft:white_bed

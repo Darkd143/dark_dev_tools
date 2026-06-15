@@ -16,6 +16,8 @@ scoreboard objectives add dark_player.spectate trigger
 # Attribute Triggers
 scoreboard objectives add dark_player.attribute.preset_menu trigger
 scoreboard objectives add dark_player.attribute.scale trigger
+scoreboard objectives add dark_player.attribute.jump_strength trigger
+scoreboard objectives add dark_player.attribute.reset trigger
 
 # Default Variables
 execute unless score $dark_player dark_player.id matches 0.. run scoreboard players set $dark_player dark_player.id -1
