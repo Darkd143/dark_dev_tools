@@ -1,0 +1,1 @@
+execute as @a if function dark_player:manage/spawnpoint/helper/has_respawn run function dark_player:manage/spawnpoint/allow_reset/individual

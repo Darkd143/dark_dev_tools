@@ -1,0 +1,3 @@
+function dark_player:triggers/player_tp_menu/player_menu/reset
+function dark_player:triggers/player_tp_menu/tp_to_player/reset
+function dark_player:triggers/player_tp_menu/spectate/reset

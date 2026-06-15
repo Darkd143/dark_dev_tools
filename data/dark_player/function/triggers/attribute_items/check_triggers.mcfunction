@@ -1,0 +1,4 @@
+execute as @a[scores={dark_player.attribute.preset_menu=-1..}] unless score @s dark_player.attribute.preset_menu matches 0 run function dark_player:triggers/attribute_items/preset_menu/run
+execute as @a[scores={dark_player.attribute.scale=-4..}] unless score @s dark_player.attribute.scale matches 0 run function dark_player:triggers/attribute_items/scale/run
+execute as @a[scores={dark_player.attribute.jump_strength=-1..}] unless score @s dark_player.attribute.jump_strength matches 0 run function dark_player:triggers/attribute_items/jump_strength/run
+execute as @a[scores={dark_player.attribute.reset=1..}] run function dark_player:triggers/attribute_items/reset/run

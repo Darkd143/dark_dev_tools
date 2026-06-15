@@ -1,0 +1,1 @@
+function dark_player:manage/attribute/modify/base {name:"minecraft:jump_strength",scale:0}

@@ -1,0 +1,3 @@
+function dark_player:triggers/player_tp_menu/player_menu/enable
+function dark_player:triggers/player_tp_menu/tp_to_player/enable
+function dark_player:triggers/player_tp_menu/spectate/enable

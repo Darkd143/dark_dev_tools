@@ -1,0 +1,1 @@
+function dark_dev_utils:triggers/permissions/allow_all

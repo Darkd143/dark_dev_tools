@@ -1,0 +1,51 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Dark Player - Attribute Preset Menu",
+  "exit_action": {
+    "label": "Back",
+    "tooltip": "back to the attribute menu",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dark_player:attribute_menu"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Creative Maneuverability",
+      "tooltip": "Apply Attributes to give yourself better maneuverability",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_player.attribute.preset_menu set 1"
+      }
+    },
+    {
+      "label": "No Fall Damage",
+      "tooltip": "Apply no fall damage to yourself",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_player.attribute.preset_menu set 2"
+      }
+    },
+    {
+      "label": "No Jump",
+      "tooltip": "Apply no jump to yourself",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_player.attribute.preset_menu set 3"
+      }
+    },
+    {
+      "label": "No Knockback",
+      "tooltip": "Apply no knockback to yourself",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_player.attribute.preset_menu set 4"
+      }
+    },
+    {
+      "label": "Exit",
+      "tooltip": "Exit the dialog menu"
+    }
+  ]
+}

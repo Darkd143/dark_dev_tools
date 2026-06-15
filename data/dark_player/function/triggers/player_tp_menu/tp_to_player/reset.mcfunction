@@ -1,0 +1,1 @@
+scoreboard players reset @s dark_player.tp_to_player

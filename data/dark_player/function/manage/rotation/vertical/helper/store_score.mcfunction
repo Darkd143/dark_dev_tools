@@ -1,0 +1,1 @@
+execute store result score @s dark_player.temp run function dark_player:manage/rotation/vertical/get/scaled {scale:1000000}

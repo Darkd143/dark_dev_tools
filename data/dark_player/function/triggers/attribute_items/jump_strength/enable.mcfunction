@@ -1,0 +1,2 @@
+function dark_player:triggers/attribute_items/jump_strength/reset
+scoreboard players enable @s dark_player.attribute.jump_strength

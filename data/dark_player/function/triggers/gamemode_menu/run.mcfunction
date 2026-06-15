@@ -1,0 +1,2 @@
+function dark_player:triggers/gamemode_menu/enable
+function dark_player:triggers/gamemode_menu/dialog/run

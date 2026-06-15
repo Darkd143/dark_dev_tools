@@ -1,0 +1,4 @@
+function dark_player:triggers/attribute_items/preset_menu/enable
+function dark_player:triggers/attribute_items/scale/enable
+function dark_player:triggers/attribute_items/jump_strength/enable
+function dark_player:triggers/attribute_items/reset/enable

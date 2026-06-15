@@ -1,0 +1,1 @@
+function dark_player:manage/move/xyz/macro {x:"~",y:"~",z:"~1"}

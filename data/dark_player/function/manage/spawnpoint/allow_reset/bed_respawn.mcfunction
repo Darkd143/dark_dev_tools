@@ -1,0 +1,1 @@
+tellraw @s [{"text":"[Dark Player] ","color":"gray"},{"text":"To correct your respawn point, please bread the bed. Then, kill yourself.","color":"white"}]

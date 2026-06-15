@@ -1,4 +1,0 @@
-scoreboard players add $dark_player_tp_menu.player_manager dark_player_tp_menu.player_id 1
-scoreboard players operation @s dark_player_tp_menu.player_id = $dark_player_tp_menu.player_manager dark_player_tp_menu.player_id
-function dark_player_tp_menu:player_tp_menu/triggers/player_menu/reset
-function dark_player_tp_menu:player_tp_menu/triggers/tp_to_player/reset

@@ -1,0 +1,1 @@
+scoreboard players add $dark_player dark_player.id 1

@@ -1,0 +1,1 @@
+execute unless score $dark_player dark_player.id matches -1 as @a unless score @s dark_player.id matches 1.. run function dark_player:manage/id/assign_id

@@ -1,2 +1,2 @@
 function dark_random_world_spawn:random_world_spawn/run
-function dark_random_world_spawn:trigger/reset
+function dark_random_world_spawn:trigger/enable
