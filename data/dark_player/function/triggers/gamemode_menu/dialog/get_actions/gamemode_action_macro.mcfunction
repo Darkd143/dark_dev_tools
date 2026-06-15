@@ -6,9 +6,9 @@
 $data modify storage dark_player.temp actions append value { \
       "label": [{"text":"$(gamemode)",color:"$(color)"}], \
       "tooltip": "Change $(username) to $(gamemode) mode", \
-      "width": 2, \
+      "width": 70, \
       "action": { \
         "type": "minecraft:run_command", \
-        "command": "/function dark_player:triggers/gamemode_menu/dialog/apply_gamemode {gamemode:"$(gamemode)",username:"$(username)"}" \
+        "command": "/function dark_player:triggers/gamemode_menu/dialog/apply_gamemode {gamemode:\"$(gamemode)\",username:\"$(username)\"}" \
       } \
     }

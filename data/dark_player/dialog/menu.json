@@ -16,7 +16,15 @@
       "tooltip": "Change a player's gamemode",
       "action": {
         "type": "minecraft:run_command",
-        "command": "/trigger dark_player.gamemode_menu set -1"
+        "command": "/trigger dark_player.gamemode_menu"
+      }
+    },
+    {
+      "label": "Attribute Menu",
+      "tooltip": "Modify player attributes",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_player.attribute_menu"
       }
     },
     {
@@ -25,14 +33,6 @@
       "action": {
         "type": "minecraft:run_command",
         "command": "/trigger dark_player.reset"
-      }
-    },
-    {
-      "label": "Attribute Menu",
-      "tooltip": "Modify player attributes",
-      "action": {
-        "type": "minecraft:run_command",
-        "command": "/trigger dark_player.attribute_menu set -1"
       }
     },
     {

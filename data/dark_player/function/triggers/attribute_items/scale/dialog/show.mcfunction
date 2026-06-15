@@ -3,7 +3,8 @@
 
 $dialog show @s { \
   "type": "minecraft:multi_action", \
-  "title": "Dark Player - Jump Strength", \
+  "title": "Dark Player - Scale", \
+  "columns": 1, \
   "body": [ \
     { \
       "type": "minecraft:plain_message", \
@@ -14,7 +15,7 @@ $dialog show @s { \
     { \
       "type": "minecraft:number_range", \
       "key": "new_scale", \
-      "label": "New Jump Strength (in blocks)", \
+      "label": "New Scale", \
       "start": 0.1, \
       "end": 10, \
       "step": 0.1, \
@@ -23,11 +24,11 @@ $dialog show @s { \
   ], \
   "actions": [ \
     { \
-      "label": "Save Scale", \
+      "label": "Save", \
       "tooltip": "Apply the scale to yourself", \
       "action": { \
         "type": "minecraft:dynamic/run_command", \
-        "template": "/function dark_player:manage/attribute/modify/base {name:\"minecraft:scale\",scale:$(new_scale)}" \
+        "template": "/function dark_player:manage/attribute/modify/base {name:\"minecraft:scale\",scale:\u0024(new_scale)}" \
       } \
     }, \
     { \
@@ -47,8 +48,8 @@ $dialog show @s { \
       } \
     }, \
     { \
-      "label": "Reset Scale", \
-      "tooltip": "Reset your scale", \
+      "label": "Reset", \
+      "tooltip": "Reset your scale to 1.0", \
       "action": { \
         "type": "minecraft:run_command", \
         "command": "/trigger dark_player.attribute.scale set -4" \

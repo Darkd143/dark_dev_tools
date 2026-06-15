@@ -12,11 +12,11 @@
   "columns": 1,
   "actions": [
     {
-      "label": "Attribute Presets",
+      "label": "Presets",
       "tooltip": "Select an attribute preset to apply to yourself",
       "action": {
         "type": "minecraft:run_command",
-        "command": "/trigger dark_player.attribute.preset_menu"
+        "command": "/trigger dark_player.attribute.preset_menu set -1"
       }
     },
     {
@@ -36,7 +36,7 @@
       }
     },
     {
-      "label": "Reset Attributes",
+      "label": "Reset",
       "tooltip": "Reset all your attributes",
       "action": {
         "type": "minecraft:run_command",

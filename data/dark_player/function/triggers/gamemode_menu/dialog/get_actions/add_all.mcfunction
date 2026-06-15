@@ -1,8 +1,8 @@
 # Parameters:
 # - username (string): The player's username
 
-# Add the player Button TODO: disable button
-$data modify storage dark_player.temp actions append value {"label":[{"player":"$(gamemode)"},{"text":" $(username)"}],"width":5}
+# Add the player Button
+$data modify storage dark_player.temp actions append value {"label":[{"player":"$(username)"},{"text":" $(username)"}],"width":140,"action": {"type": "minecraft:run_command","command": "/trigger dark_player.gamemode_menu"}}
 
 # Survival
 data modify storage dark_player.temp gamemode set value "survival"

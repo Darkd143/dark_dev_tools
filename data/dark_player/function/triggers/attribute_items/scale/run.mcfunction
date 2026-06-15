@@ -1,6 +1,3 @@
-# Run Dialog
-execute if score @s dark_player.attribute.scale matches -1 run function dark_player:triggers/attribute_items/scale/dialog/run
-
 # Add or Subtract Scale
 execute if score @s dark_player.attribute.scale matches -2 run function dark_player:manage/attribute/presets/scale/add_0.1
 
@@ -11,6 +8,7 @@ execute if score @s dark_player.attribute.scale matches -3 unless function dark_
 execute if score @s dark_player.attribute.scale matches -4 run function dark_player:manage/attribute/modify/reset {name:"minecraft:scale"}
 
 # Reset Trigger and return unless value is one or more
+execute unless score @s dark_player.attribute.scale matches 1.. run function dark_player:triggers/attribute_items/scale/dialog/run
 execute unless score @s dark_player.attribute.scale matches 1.. run return run function dark_player:triggers/attribute_items/scale/enable
 
 # Set Up Storage for Positive Values
@@ -24,4 +22,5 @@ function dark_player:manage/attribute/modify/base with storage dark_player.temp
 data remove storage dark_player.temp scale
 data remove storage dark_player.temp name
 
+function dark_player:triggers/attribute_items/scale/dialog/run
 function dark_player:triggers/attribute_items/scale/enable

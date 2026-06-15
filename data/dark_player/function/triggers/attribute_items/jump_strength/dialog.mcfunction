@@ -1,6 +1,7 @@
 dialog show @s { \
   "type": "minecraft:multi_action", \
   "title": "Dark Player - Jump Strength", \
+  "columns": 1, \
   "inputs": [ \
     { \
       "type": "minecraft:number_range", \
@@ -14,15 +15,15 @@ dialog show @s { \
   ], \
   "actions": [ \
     { \
-      "label": "Save Jump Strength", \
-      "tooltip": "Select an attribute preset to apply to yourself", \
+      "label": "Save", \
+      "tooltip": "Set Jump Strength to the value set above (in blocks)", \
       "action": { \
         "type": "minecraft:dynamic/run_command", \
         "template": "/trigger dark_player.attribute.jump_strength set $(new_jump_strength)" \
       } \
     }, \
     { \
-      "label": "Change to No Jump", \
+      "label": "No Jump", \
       "tooltip": "Apply No Jump to yourself", \
       "action": { \
         "type": "minecraft:run_command", \
@@ -30,7 +31,7 @@ dialog show @s { \
       } \
     }, \
     { \
-      "label": "Reset Jump Strength to Default", \
+      "label": "Reset", \
       "tooltip": "Reset Jump Strength to Default", \
       "action": { \
         "type": "minecraft:run_command", \
