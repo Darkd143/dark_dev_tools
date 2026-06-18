@@ -7,7 +7,7 @@
 execute store result storage dark_mannequin.temp id int 1 run scoreboard players get @s dark_mannequin.id
 $data merge storage dark_mannequin.temp {x:$(x),y:$(y),z:$(z)}
 
-execute as @s run function dark_mannequin:mannequin/manage/ai/target_location/macro with storage dark_mannequin.temp
+execute as @s run function dark_mannequin:mannequin/manage/ai/node_loop/target_location/macro with storage dark_mannequin.temp
 
 # Remove Storage
 data remove storage dark_mannequin.temp id

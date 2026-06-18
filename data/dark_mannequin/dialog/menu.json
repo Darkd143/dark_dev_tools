@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Dark Mannequin Menu",
+  "actions": [
+    {
+      "label": "Do Stuff",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/say hi"
+      }
+    }
+  ]
+}

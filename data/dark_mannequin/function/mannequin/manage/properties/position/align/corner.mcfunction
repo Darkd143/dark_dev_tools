@@ -1,1 +1,0 @@
-execute as @s align xyz run tp @s ~ ~ ~

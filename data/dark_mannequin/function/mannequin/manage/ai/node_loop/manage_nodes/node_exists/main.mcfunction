@@ -1,0 +1,1 @@
+return run function dark_mannequin:mannequin/manage/ai/node_loop/manage_nodes/node_exists/macro with storage dark_mannequin.temp

@@ -1,0 +1,2 @@
+execute store result storage dark_mannequin.temp path_node int 1 run scoreboard players get @s dark_mannequin.ai.path_node
+execute store result storage dark_mannequin.temp path_node_loop int 1 run scoreboard players get @s dark_mannequin.ai.path_node_loop

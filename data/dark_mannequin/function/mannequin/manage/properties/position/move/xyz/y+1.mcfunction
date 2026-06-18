@@ -1,1 +1,0 @@
-function dark_mannequin:mannequin/manage/properties/position/move/xyz/macro {x:"~",y:"~1",z:"~"}

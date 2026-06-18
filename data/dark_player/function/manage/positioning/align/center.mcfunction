@@ -1,1 +1,1 @@
-execute as @s align xyz run tp @s ~0.5 ~ ~0.5
+execute as @s at @s align xyz run tp @s ~0.5 ~ ~0.5

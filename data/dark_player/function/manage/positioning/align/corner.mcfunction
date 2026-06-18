@@ -1,1 +1,1 @@
-execute as @s align xyz run tp @s ~ ~ ~
+execute as @s at @s align xyz run tp @s ~ ~ ~
