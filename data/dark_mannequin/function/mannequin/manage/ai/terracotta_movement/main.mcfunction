@@ -1,6 +1,9 @@
 # Determine Movement Speed
 execute store result storage dark_mannequin.temp movement_speed double 0.01 run function dark_player:manage/attribute/get/base {name:"minecraft:movement_speed",scale:100}
 
+# Debug Particles
+execute if score @s dark_mannequin.ai.debug matches 1 run particle minecraft:white_ash ~ ~ ~
+
 # Check for arrow blocks below the player, and update accordingly
 execute positioned ~ ~-2 ~ run function dark_mannequin:mannequin/manage/ai/terracotta_movement/check_block_macro with storage dark_mannequin.temp
 execute if data storage dark_mannequin.temp Motion run return run function dark_mannequin:mannequin/manage/ai/terracotta_movement/update with storage dark_mannequin.temp

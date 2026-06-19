@@ -1,1 +1,0 @@
-function dark_mannequin:mannequin/manage/properties/rotation/set/main {rotation_0:0,rotation_1:"~"}

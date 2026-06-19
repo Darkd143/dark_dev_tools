@@ -1,0 +1,1 @@
+function dark_player:manage/rotation/set/main {horizontal_rotation:-90,vertical_rotation:"~"}
