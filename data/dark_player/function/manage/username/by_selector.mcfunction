@@ -1,5 +1,5 @@
 # Set up Storage
-execute unless data storage dark_player.temp storage run data modify storage dark_player.temp storage set value "dark_player"
+execute unless data storage dark_player.temp storage run data modify storage dark_player.temp storage set value "dark_player.temp"
 execute unless data storage dark_player.temp identifier run data modify storage dark_player.temp identifier set value "username"
 
 # Save Storage

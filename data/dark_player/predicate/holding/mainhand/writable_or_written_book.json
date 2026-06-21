@@ -1,0 +1,13 @@
+{
+    "condition": "any_of",
+    "terms": [
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_player:holding/mainhand/writable_book"
+        },
+        {
+            "condition": "minecraft:reference",
+            "name": "dark_player:holding/mainhand/written_book"
+        }
+    ]
+}
