@@ -28,8 +28,8 @@
       }
     },
     {
-      "label": [{"text":"Default "},{"player":"@s"}],
-      "tooltip": "Summon Player Mannequin",
+      "label": [{"selector":"@s"},{"text":" Mannequin"}],
+      "tooltip": "Summon Player Mannequin of yourself",
       "action": {
         "type": "minecraft:run_command",
         "command": "/trigger dark_mannequin.summon set -4"

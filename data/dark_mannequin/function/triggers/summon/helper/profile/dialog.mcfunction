@@ -6,7 +6,10 @@ $dialog show @s { \
   "title": "Dark Mannequin - Summon Profile Mannequin Confirmation", \
   "body": { \
     "type": "minecraft:plain_message", \
-    "contents": "Summon a mannequin with \"$(profile)\"" \
+    "contents": { \
+      "text": "Summon a mannequin of \"$(profile)\"?", \
+      "color": "gold" \
+    } \
   }, \
   "yes": { \
     "label": "Confirm", \
