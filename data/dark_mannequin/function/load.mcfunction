@@ -16,8 +16,9 @@ scoreboard objectives add dark_mannequin.ai.debug dummy
 # Triggers
 scoreboard objectives add dark_mannequin.menu trigger
 scoreboard objectives add dark_mannequin.summon trigger
-scoreboard objectives add dark_mannequin.mannequin_menu trigger
 scoreboard objectives add dark_mannequin.kill trigger
+scoreboard objectives add dark_mannequin.inventory_swap trigger
+scoreboard objectives add dark_mannequin.mannequin_menu trigger
 
 # Variables
 execute unless score $dark_mannequin dark_mannequin.id matches 0.. run scoreboard players set $dark_mannequin dark_mannequin.id 0

@@ -28,7 +28,7 @@
       }
     },
     {
-      "label": [{"selector":"@s"},{"text":" Mannequin"}],
+      "label": "Player Mannequin",
       "tooltip": "Summon Player Mannequin of yourself",
       "action": {
         "type": "minecraft:run_command",

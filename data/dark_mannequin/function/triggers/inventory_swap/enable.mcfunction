@@ -1,0 +1,2 @@
+function dark_mannequin:triggers/inventory_swap/reset
+scoreboard players enable @s dark_mannequin.inventory_swap

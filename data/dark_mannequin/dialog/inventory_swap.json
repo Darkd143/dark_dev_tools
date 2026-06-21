@@ -1,0 +1,91 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Dark Mannequin - Inventory Swap",
+  "exit_action": {
+    "label": "Back",
+    "tooltip": "back to the dark mannequin menu",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dark_mannequin:menu"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": "Full Equipment",
+      "tooltip": "Swap armor and hand equipment with the nearest mannequin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.inventory_swap set 1"
+      }
+    },
+    {
+      "label": "Hand Equipment",
+      "tooltip": "Swap hand equipment with the nearest mannequin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.inventory_swap set 2"
+      }
+    },
+    {
+      "label": "Armor Equipment",
+      "tooltip": "Swap armor equipment with the nearest mannequin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.inventory_swap set 3"
+      }
+    },
+    {
+      "label": "Mainhand",
+      "tooltip": "Swap mainhand item with the nearest mannequin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.inventory_swap set 4"
+      }
+    },
+    {
+      "label": "Offhand",
+      "tooltip": "Swap offhand item with the nearest mannequin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.inventory_swap set 5"
+      }
+    },
+    {
+      "label": "Head",
+      "tooltip": "Swap head armor item with the nearest mannequin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.inventory_swap set 6"
+      }
+    },
+    {
+      "label": "Chest",
+      "tooltip": "Swap chest armor item with the nearest mannequin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.inventory_swap set 7"
+      }
+    },
+    {
+      "label": "Legs",
+      "tooltip": "Swap leg armor item with the nearest mannequin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.inventory_swap set 8"
+      }
+    },
+    {
+      "label": "Feet",
+      "tooltip": "Swap feet armor item with the nearest mannequin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.inventory_swap set 9"
+      }
+    },
+    {
+      "label": "Exit",
+      "tooltip": "Exit the dialog menu"
+    }
+  ]
+}

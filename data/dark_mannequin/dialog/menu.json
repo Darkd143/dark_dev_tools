@@ -13,18 +13,26 @@
   "actions": [
     {
       "label": "Summon Menu",
-      "tooltip": "Open the Menu for summoning Mannequins",
+      "tooltip": "Open the menu for summoning mannequins",
       "action": {
-        "type": "minecraft:run_command",
-        "command": "/trigger dark_mannequin.summon set -1"
+        "type": "minecraft:show_dialog",
+        "dialog": "dark_mannequin:summon_menu"
       }
     },
     {
       "label": "Kill Mannequin",
-      "tooltip": "Kill the nearest Mannequin",
+      "tooltip": "Kill the nearest mannequin",
       "action": {
         "type": "minecraft:run_command",
         "command": "/trigger dark_mannequin.kill set -1"
+      }
+    },
+    {
+      "label": "Inventory Swap Menu",
+      "tooltip": "Open the menu for swapping equipment items with the nearest mannequin",
+      "action": {
+        "type": "minecraft:show_dialog",
+        "dialog": "dark_mannequin:inventory_swap"
       }
     },
     {
