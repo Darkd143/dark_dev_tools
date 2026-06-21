@@ -1,0 +1,1 @@
+scoreboard players reset @s dark_mannequin.custom_name_visible

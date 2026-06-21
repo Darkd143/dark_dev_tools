@@ -11,3 +11,4 @@ $scoreboard players set @s dark_mannequin.ai.type $(ai_type)
 
 $execute if score @s dark_mannequin.ai.type matches 1 run function dark_mannequin:manage/ai/apply/entity/main {entity_id:$(entity_id)}
 execute if score @s dark_mannequin.ai.type matches 2 run function dark_mannequin:manage/ai/apply/pathing/main
+execute if score @s dark_mannequin.ai.type matches 3 run function dark_player:manage/attribute/modify/base {name:"minecraft:movement_speed",scale:0.1}

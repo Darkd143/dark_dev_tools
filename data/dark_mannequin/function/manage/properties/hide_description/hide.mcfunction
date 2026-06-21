@@ -1,0 +1,1 @@
+data modify entity @s hide_description set value 1b
