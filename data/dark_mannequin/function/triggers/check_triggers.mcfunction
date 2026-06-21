@@ -1,0 +1,3 @@
+execute as @a[scores={dark_mannequin.menu=1..}] run return run function dark_mannequin:triggers/menu/run
+execute as @a[scores={dark_mannequin.summon=-1..}] unless score @s dark_mannequin.summon matches 0 run return run function dark_mannequin:triggers/summon/run
+execute as @a[scores={dark_mannequin.kill=-1..}] unless score @s dark_mannequin.kill matches 0 run return run function dark_mannequin:triggers/kill/run

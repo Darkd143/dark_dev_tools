@@ -1,0 +1,1 @@
+execute store result entity @s Health double 1 run function dark_player:manage/attribute/get/base {name:"minecraft:max_health",scale:1}

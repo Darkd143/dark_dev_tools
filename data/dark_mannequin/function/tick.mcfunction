@@ -1,3 +1,2 @@
-function dark_mannequin:mannequin/manage/ai/tick
-
-# execute as @p run tellraw @s [{"entity":"@s","nbt":"Motion"}]
+function dark_mannequin:manage/ai/tick
+function dark_mannequin:manage/training_dummy/tick

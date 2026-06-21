@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:mannequin,tag=dark_mannequin.mannequin] run function dark_mannequin:manage/kill/selector/main

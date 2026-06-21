@@ -1,0 +1,1 @@
+execute as @e[tag=dark_mannequin.training_dummy,type=minecraft:mannequin] unless function dark_mannequin:manage/properties/health/health_is_max run function dark_mannequin:manage/training_dummy/hit

@@ -1,13 +1,43 @@
 {
   "type": "minecraft:multi_action",
   "title": "Dark Mannequin Menu",
+  "exit_action": {
+    "label": "Back",
+    "tooltip": "back to the main menu",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dark_dev_utils:menu"
+    }
+  },
+  "columns": 1,
   "actions": [
     {
-      "label": "Do Stuff",
+      "label": "Summon Menu",
+      "tooltip": "Open the Menu for summoning Mannequins",
       "action": {
         "type": "minecraft:run_command",
-        "command": "/say hi"
+        "command": "/trigger dark_mannequin.summon set -1"
       }
+    },
+    {
+      "label": "Kill Mannequin",
+      "tooltip": "Kill the nearest Mannequin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.kill set -1"
+      }
+    },
+    {
+      "label": "Mannequin Menu",
+      "tooltip": "View all Loaded Mannequins",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.mannequin_menu set -1"
+      }
+    },
+    {
+      "label": "Exit",
+      "tooltip": "Exit the dialog menu"
     }
   ]
 }

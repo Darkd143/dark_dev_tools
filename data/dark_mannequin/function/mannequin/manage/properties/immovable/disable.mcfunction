@@ -1,1 +1,0 @@
-function dark_mannequin:mannequin/manage/properties/immovable/main {value:0b}

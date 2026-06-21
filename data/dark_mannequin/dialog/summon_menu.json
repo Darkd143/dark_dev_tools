@@ -1,0 +1,59 @@
+{
+  "type": "minecraft:multi_action",
+  "title": "Dark Mannequin - Summon Menu",
+  "exit_action": {
+    "label": "Back",
+    "tooltip": "back to the dark mannequin menu",
+    "action": {
+      "type": "minecraft:show_dialog",
+      "dialog": "dark_mannequin:menu"
+    }
+  },
+  "columns": 1,
+  "actions": [
+    {
+      "label": [{"text":"Default "},{"player":""}],
+      "tooltip": "Summon Default Mannequin (Alex)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.summon set -2"
+      }
+    },
+    {
+      "label": [{"text":"Default "},{"player":"Alex"}],
+      "tooltip": "Summon Default Mannequin (Alex)",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.summon set -3"
+      }
+    },
+    {
+      "label": [{"text":"Default "},{"player":"@s"}],
+      "tooltip": "Summon Player Mannequin",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.summon set -4"
+      }
+    },
+    {
+      "label": "Player Mannequin Menu",
+      "tooltip": "Select a player to summon a mannequin of",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.summon set -5"
+      }
+    },
+    {
+      "label": "Profile Mannequin",
+      "tooltip": "Summon a mannequin by using a username written in a held book",
+      "action": {
+        "type": "minecraft:run_command",
+        "command": "/trigger dark_mannequin.summon set -6"
+      }
+    },
+    {
+      "label": "Exit",
+      "tooltip": "Exit the dialog menu"
+    }
+  ]
+}
