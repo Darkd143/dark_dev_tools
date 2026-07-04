@@ -1,0 +1,6 @@
+execute if data storage dark_text_utils.temp external_title run data modify storage dark_text_utils.dialog dialog."external_title" set from storage dark_text_utils.temp external_title
+execute if data storage dark_text_utils.temp body run data modify storage dark_text_utils.dialog dialog."body" set from storage dark_text_utils.temp body
+execute if data storage dark_text_utils.temp inputs run data modify storage dark_text_utils.dialog dialog."inputs" set from storage dark_text_utils.temp inputs
+execute if data storage dark_text_utils.temp can_close_with_escape run data modify storage dark_text_utils.dialog dialog."can_close_with_escape" set from storage dark_text_utils.temp can_close_with_escape
+execute if data storage dark_text_utils.temp after_action run data modify storage dark_text_utils.dialog dialog."after_action" set from storage dark_text_utils.temp after_action
+execute if data storage dark_text_utils.temp pause run data modify storage dark_text_utils.dialog dialog."pause" set from storage dark_text_utils.temp pause

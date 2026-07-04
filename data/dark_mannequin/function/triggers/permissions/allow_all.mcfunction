@@ -1,4 +1,5 @@
 function dark_mannequin:triggers/menu/enable
 function dark_mannequin:triggers/summon/enable
 function dark_mannequin:triggers/kill/enable
+function dark_mannequin:triggers/mannequin_menu/enable
 function dark_mannequin:triggers/inventory_swap/enable

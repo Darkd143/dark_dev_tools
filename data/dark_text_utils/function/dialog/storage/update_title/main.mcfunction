@@ -1,0 +1,2 @@
+execute if data storage dark_text_utils.temp title run data modify storage dark_text_utils.dialog dialog."title" set from storage dark_text_utils.temp title
+execute unless data storage dark_text_utils.dialog dialog."title" run function dark_text_utils:dialog/storage/update_title/macro

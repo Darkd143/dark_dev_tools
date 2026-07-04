@@ -1,0 +1,2 @@
+execute if data storage dark_text_utils.temp exit_action run data modify storage dark_text_utils.dialog dialog."exit_action" set from storage dark_text_utils.temp exit_action
+execute if data storage dark_text_utils.temp columns run data modify storage dark_text_utils.dialog dialog."columns" set from storage dark_text_utils.temp columns

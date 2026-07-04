@@ -1,0 +1,2 @@
+function dark_mannequin:triggers/mannequin_menu/reset
+scoreboard players enable @s dark_mannequin.mannequin_menu
